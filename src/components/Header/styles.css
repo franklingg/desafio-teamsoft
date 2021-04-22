@@ -1,0 +1,39 @@
+.headerContainer{
+    display: flex;
+    align-items: stretch;
+    height: 5rem;
+    padding: 1rem 4rem;
+    gap: 1.7rem;
+    background-color: var(--gray-lighter);
+    box-shadow: 0 3px 2px var(--gray-light);
+}
+
+#headerLogo, #headerLogo img{
+    height: 100%;
+}
+
+#searchBar{
+    display: flex;
+    margin-left: auto;
+    gap: 1.5rem;
+}
+
+#searchBar select{
+    width: 13rem;
+}
+
+#searchBar input{
+    padding-left: 1rem;
+    border: 1px solid var(--red-light);
+    border-radius: 4px;
+    font-size: 0.875rem; 
+    width: 22rem;
+}
+
+.headerAnchor{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--red-light);
+}
