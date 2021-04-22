@@ -2,14 +2,18 @@
     display: flex;
     align-items: stretch;
     height: 5rem;
-    padding: 1rem 4rem;
+    padding: 1rem 4%;
     gap: 1.7rem;
     background-color: var(--gray-lighter);
-    box-shadow: 0 3px 2px var(--gray-light);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
-#headerLogo, #headerLogo img{
-    height: 100%;
+.headerLogo {
+    width: 18%;
+}
+
+.headerLogo img{
+    width: 100%;
 }
 
 #searchBar{
@@ -18,8 +22,32 @@
     gap: 1.5rem;
 }
 
-#searchBar select{
-    width: 13rem;
+.react-select-container > * {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border: 0;
+    caret-color: transparent;
+    font-size: 0.75rem;
+    width: 14rem;
+    height: 100%;
+}
+
+.react-select__value-container{ padding-top: 0.7rem !important; }
+
+.react-select__single-value{
+    white-space: pre-wrap !important;
+    overflow-wrap: break-word !important;
+    text-overflow: string !important;
+    font-weight: 700;
+    line-height: 1.2rem;
+}
+
+.react-select__indicator-separator{ display: none; }
+
+.react-select__indicator{ color: var(--red-deliverize) !important; }
+
+#entrega {
+    font-weight:400;
+    color: var(--red-deliverize);
 }
 
 #searchBar input{
@@ -33,7 +61,7 @@
 .headerAnchor{
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.7rem;
     text-decoration: none;
     color: var(--red-light);
 }
