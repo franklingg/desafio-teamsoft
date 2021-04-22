@@ -24,8 +24,8 @@ export function SearchBar(){
         
     },[]);
     return(
-        <form id="searchBar">
-            <Select className="react-select-container" classNamePrefix="react-select"
+        <form className="header__searchBar">
+            <Select className="header__select" classNamePrefix="header__select"
                 placeholder={notSelected}
                 onChange={setSelecionado}
                 options={enderecos}
