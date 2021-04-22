@@ -37,6 +37,7 @@ body {
 }
 
 body, input, textarea, button {
+    outline: none;
     font: 400 1rem 'Roboto', sans-serif;
     color: var(--gray-darker);
 }
