@@ -114,3 +114,35 @@
 .ordering__submit--btn:hover {
     transform: scale(1.015);
 }
+
+.ordering__popover{
+    font-weight: 700;
+}
+
+.ordering__popover-header{
+    padding: 0.8rem;
+    padding-bottom: 0.3rem;
+    background-color:var(--yellow-tangerine);
+    font-size: 1.125rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.ordering__popover-title{
+    padding: 0.6rem;
+    color: var(--red-medium);
+    font-size: 0.875rem;
+}
+
+.ordering__popover-ingredients--title,.ordering__popover-ingredients{
+    font-weight: 400;
+    font-size: 0.75rem;
+    padding: 0.1rem 0.6rem;
+    list-style-position: inside;
+}
+
+.ordering__popover-ingredients--item{
+    display: list-item;
+    padding-left: 0.5rem;
+    padding-bottom: 0.3rem;
+}
