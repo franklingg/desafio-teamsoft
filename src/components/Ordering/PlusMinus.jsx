@@ -2,17 +2,12 @@ import {useState} from 'react'
 import AddIcon from '@material-ui/icons/Add';
 import RemoveIcon from '@material-ui/icons/Remove';
 
-export function PlusMinus({className}){
-    const [count, setCount] = useState(null);
+export function PlusMinus({className, initial, min=0}){
+    const [count, setCount] = useState(initial || null);
 
-    function anyAction(){
-        return count !== null;
-    }
-
-    function increment(){setCount(count+1);}
-    function decrement(){
-        setCount(count !== 0 ? count-1 : 0);
-    }
+    function anyAction(){ return count !== null; }
+    function increment(){ setCount(count+1); }
+    function decrement(){ setCount(count !== min ? count-1 : 0); }
 
     return(
         anyAction() ?

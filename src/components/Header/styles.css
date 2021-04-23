@@ -35,10 +35,16 @@
     height: 100%;
 }
 
-.css-yk16xz-control:hover{ border: 1px solid var(--red-light) !important; }
-.css-1pahdxg-control{ border: 2px solid var(--red-light) !important; }
+.header__select__control:hover:not(.header__select__control--is-focused){
+     border: 1px solid var(--red-light) !important; 
+}
 
-.header__select__value-header{ padding-top: 0.7rem !important; }
+.header__select__control--is-focused,
+.header__select__control--is-open{ border: 2px solid var(--red-light) !important; }
+
+.header__select__value-container{
+    height: 100%;
+}
 
 .header__select__single-value{
     white-space: pre-wrap !important;
@@ -47,6 +53,11 @@
     font-weight: 700;
     line-height: 1.2rem;
 }
+.header__select__menu-list { background-color: var(--white); }
+
+.header__select__option:hover{ background-color: var(--yellow-light);}
+.header__select__option--is-selected { background-color: var(--yellow-lighter) !important; }
+.header__select__option span{ display: none;}
 
 .header__select__indicator-separator{ display: none; }
 
