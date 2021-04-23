@@ -20,9 +20,12 @@
     --white: #FFF; 
     --gray-lighter: #F4F4F4; 
     --gray-light: #E5E5E5;
+    --gray-medium: #686868;
     --gray-darker: #4E4E4E; 
 
-    --yellow-light: rgba(253, 215, 14, 0,2);
+    --yellow-light: rgba(253, 215, 14, 0.2);
+    --yellow-lighter: #E8A634;
+    --yellow-darker: #E49700;
     --yellow-tangerine: #F09035; 
     --yellow-orange: #DC6E05;
     

@@ -1,8 +1,6 @@
 import {useState, useEffect} from 'react'
 import Select from "react-select";
 
-import './styles.css'
-
 const fetched = [
     {id: 1, conteudo: "R. Antonio Braune, 222"},
     {id: 2, conteudo: "R. Novaes Paes, 565"}

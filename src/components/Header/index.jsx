@@ -15,11 +15,12 @@ export function Header({routes}){
             <SearchBar />
             <Anchor className="header__anchor" 
                     path={login.URI}
-                    icon='/assets/user.png' 
+                    icon='/assets/user.svg' 
                     name={login.description} />
             <Anchor className="header__anchor" 
                     path={cart.URI}
-                    icon='/assets/cart.png' 
+                    icon='/assets/cart.svg'
+                    showBadge={true}
                     name={cart.description} />
         </header>
     );

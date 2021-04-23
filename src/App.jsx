@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import {Header} from './components/Header'
 import {Routes} from './Routes'
 import './global.css'
@@ -10,10 +10,11 @@ export function App(){
         <>
         <Router>
             <Header routes={routes} />
-            <main>
+            <Switch>
+                <Route path={routes.home.URI} component={routes.home.page}></Route>
                 <Route path={routes.login.URI} component={routes.login.page}></Route>
                 <Route path={routes.cart.URI} component={routes.cart.page}></Route>
-            </main>
+            </Switch>
         </Router>
         </>
     );

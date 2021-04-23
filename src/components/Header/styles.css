@@ -12,8 +12,12 @@
     width: 18%;
 }
 
-.header__logo img{
+.header__logo > *, .header__anchorLogo{
     width: 100%;
+}
+
+.header__badge{
+    color: green;
 }
 
 .header__searchBar{
