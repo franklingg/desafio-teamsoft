@@ -12,7 +12,7 @@ Utilizando de bibliotecas como Material-UI, JSON Server, React Select, entre out
 
 
 ## Utilização
-Para visualizar o sistema, com o [Node.js](https://nodejs.dev) instalado em sua máquina, faça (yarn também pode ser usado nos dois comandos):
+Para visualizar o sistema, com o [Node.js](https://nodejs.dev) instalado em sua máquina, faça:
 > `npm install`
 > 
 Inicialize o JSON Server e, em um segundo terminal, dê start!
