@@ -1,7 +1,7 @@
 # Desafio-Teamsoft
 
 Minha primeira aplicação em React.js, o desafio foi o de recriar este [Layout](https://www.figma.com/file/1RWDOOFeh5836Y4KruOl5w/FrontEnd?node-id=0%3A1).
-Utilizando de bibliotecas como Material-UI, JSON Server, React Select, entre outras, o desafio foi cumprido com sucesso e este é o resultado.
+Utilizando de bibliotecas como Material-UI, JSON Server, React Select, entre outras, o desafio foi cumprido com sucesso e este é o [resultado](https://desafio-teamsoft.herokuapp.com).
 
 ## Features
 * Fidelização ao modelo
