@@ -16,6 +16,11 @@ Para visualizar o sistema, com o [Node.js](https://nodejs.dev) instalado em sua 
 > `npm install`
 > 
 Inicialize o JSON Server e, em um segundo terminal, dê start!
-> `npm server`
+> `npm run server`
 > 
 > `npm start`
+
+Ou, pelo yarn:
+> `yarn server`
+> 
+> `yarn start`
