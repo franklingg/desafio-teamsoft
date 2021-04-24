@@ -14,7 +14,7 @@ export function Anchor (props) {
             <DeliverizeBadge className="header__badge" badgeContent={2} invisible={!showBadge}>
                 <img className="header__anchorLogo" src={props.icon} alt={props.alt || props.name} />
             </DeliverizeBadge>
-            <span>{props.name}</span>
+            <span class="header__anchorName">{props.name}</span>
         </Link>
     );
 }

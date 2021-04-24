@@ -1,4 +1,4 @@
-import './styles.css';
+import './Product.css';
 
 export function Product({productInfo}){
     return(

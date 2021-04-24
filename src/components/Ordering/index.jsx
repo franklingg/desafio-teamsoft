@@ -1,7 +1,7 @@
 import {Submit} from './Submit';
 import {Additional} from './Additional';
 import {SingleChoice} from './SingleChoice';
-import './styles.css';
+import './Ordering.css';
 
 const fetchedOrder = [
     { "id": 1, "quantity": 3, "nm_item": "Queijo Cheddar", "vl_item": 4.99 },

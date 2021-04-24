@@ -8,12 +8,15 @@ export function PlusMinus({className, initial, min=0}){
     function anyAction(){ return count !== null; }
     function increment(){ setCount(count+1); }
     function decrement(){ setCount(count !== min ? count-1 : 0); }
+    function userTyped(event){
+        !isNaN(event.target.value) && setCount(+event.target.value);
+     }
 
     return(
         anyAction() ?
         <div className={className}>
             <button className={`${className}--minus`} onClick={decrement}><RemoveIcon /></button>
-            <input className={`${className}--input`} onChange={()=>{setCount(count)}} value={count} />
+            <input type="number" className={`${className}--input`} onChange={userTyped} value={count} />
             <button className={`${className}--plus`} onClick={increment}><AddIcon /></button>
         </div> :
         <div className={className + ` ${className}--single`}>

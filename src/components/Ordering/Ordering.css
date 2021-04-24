@@ -79,13 +79,10 @@
     background-color: var(--yellow-light);
     padding: 0rem 1rem 0.5rem 1rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.singleChoice__box{
-    color: var(--red-deliverize);
-}
+.singleChoice__description{ flex: 1; }
 
 .ordering__submit{
     padding-top: 1.5rem;
@@ -145,4 +142,30 @@
     display: list-item;
     padding-left: 0.5rem;
     padding-bottom: 0.3rem;
+}
+
+@media (max-width: 768px) and (min-width: 480px) {
+    .ordering{
+        width: 50rem;
+    }
+    .ordering__quantity--input{
+        width: 3.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .ordering{
+        border: 0;
+        padding: 2rem 0 0 0;
+        width: 100%;
+        font-size: 1rem;
+    }
+    .additional{
+        gap: 0.4rem;
+        padding-bottom: 1rem;
+    }
+
+    .ordering__quantity--input{
+        width: 6rem;
+    }
 }

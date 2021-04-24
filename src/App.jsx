@@ -11,7 +11,7 @@ export function App(){
         <Router>
             <Header routes={routes} />
             <Switch>
-                <Route path={routes.home.URI} component={routes.home.page}></Route>
+                <Route exact path={routes.home.URI} component={routes.home.page}></Route>
                 <Route path={routes.login.URI} component={routes.login.page}></Route>
                 <Route path={routes.cart.URI} component={routes.cart.page}></Route>
             </Switch>

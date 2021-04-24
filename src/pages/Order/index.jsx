@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 
 import { Ordering } from '../../components/Ordering';
 import {Product} from '../../components/Product'
-import './styles.css';
+import './Order.css';
 
 // Using JSON Server on port 3333 (yarn server)
 const API_URL = "http://localhost:3333/products/1";

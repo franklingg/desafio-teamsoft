@@ -29,3 +29,23 @@
 .product__value{ text-decoration: line-through; }
 
 .product__value--discount{ color: var(--yellow-tangerine); }
+
+@media (max-width: 480px) {
+    .product{
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .product__title{
+        font-size: 1.25rem;
+        padding-bottom: 1rem;
+    }
+
+    .product__description{
+        font-size: 1.125rem;
+    }
+
+    .product__prices{
+        font-size: 1rem;
+    }
+}

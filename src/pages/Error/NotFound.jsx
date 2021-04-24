@@ -1,4 +1,4 @@
- import './styles.css'
+ import './Error.css'
 
 export function NotFound(){
     return(
@@ -16,7 +16,7 @@ export function NotFound(){
             </div>
             <footer className="notFound__footer">
                 <a href="#top" className="notFound__logo">
-                    <img src="assets/logo.png" alt="Logotipo da Deliverize" />
+                    <img src="assets/logo.svg" alt="Logotipo da Deliverize" />
                 </a>
                 <ul className="notFound__links">
                     <li><a href="#top">Sobre nós</a></li>

@@ -1,0 +1,22 @@
+.order{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 4rem;
+    gap: 7rem; 
+}
+
+@media 
+(max-width: 768px) and
+(min-width: 480px){
+    .order{
+        padding: 1.5rem 2rem;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .order{
+      flex-direction: column;
+      gap: 0;
+    }
+}
