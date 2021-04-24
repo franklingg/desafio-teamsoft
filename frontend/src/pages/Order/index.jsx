@@ -4,8 +4,7 @@ import { Ordering } from '../../components/Ordering';
 import {Product} from '../../components/Product'
 import './Order.css';
 
-// Using JSON Server on port 3333 (yarn server)
-const API_URL = "http://localhost:3333/products/1";
+const API_URL = "/products/1";
 
 export function Order() {
 
